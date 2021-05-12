@@ -1,0 +1,7 @@
+export const BASE_BE_URL = 'http://localhost:8001/'
+export const CHATS_ENDPOINT = 'chats/'
+export const MESSAGES_ENDPOINT = 'messages/'
+export const CRONTABS_ENDPOINT = 'crontabs/'
+export const TASKS_ENDPOINT = 'periodic_tasks/'
+export const TASK_FILTER = 'celery.backend_cleanup'
+export const DEFAULT_TASK = 'chat_scheduler.tasks.send_message'
