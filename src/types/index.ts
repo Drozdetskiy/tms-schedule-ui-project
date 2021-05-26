@@ -1,0 +1,10 @@
+export type Message = import("./Message").default
+export type Chat = import("./Chat").default
+export type CronTab = import("./CronTab").default
+export type PatchCronTab = import("./PatchCronTab").default
+export type Task = import("./Task").default
+export type PatchChat = import("./PatchChat").default
+export type PatchMessage = import("./PatchMessage").default
+export type PatchTask = import("./PatchTask").default
+export type BETask = import("./BETask").default
+export type PatchBETask = import("./PatchBETask").default
